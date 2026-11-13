@@ -354,9 +354,9 @@ F2/F3 có thể kiểm tra ở cấp ALU trước, rồi kiểm tra việc lưu 
 
 | Thành viên | Phần kiểm thử phụ trách chính | Trọng tâm báo cáo cá nhân |
 |---|---|---|
-| 1 | Data processing và flags | ALU, Src2, opcode, S-bit, carry/overflow |
-| 2 | LDR/STR và memory | Địa chỉ byte/word, base+offset, RegSrc cho STR, memory write/read và writeback |
-| 3 | Branch, conditional execution và PC | PC+4/PC+8, imm24, CondEx, chặn tác động ghi |
+| Dũng | Data processing và flags | ALU, Src2, opcode, S-bit, carry/overflow |
+| Đạt | LDR/STR và memory | Địa chỉ byte/word, base+offset, RegSrc cho STR, memory write/read và writeback |
+| Khánh | Branch, conditional execution và PC | PC+4/PC+8, imm24, CondEx, chặn tác động ghi |
 
 Reset, khởi tạo, giao diện chung và chạy tích hợp là phần cùng thống nhất. Mỗi người vẫn cần hiểu toàn bộ CPU ở mức đi theo được một lệnh; báo cáo cá nhân phải thể hiện cách lý giải và bằng chứng kiểm thử của người viết.
 
